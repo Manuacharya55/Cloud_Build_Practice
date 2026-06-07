@@ -10,5 +10,13 @@ def health():
         'data' : []
     }
 
+@app.route('/users')
+def health():
+    return {
+        'success' : True,
+        'message' : 'users fetched successfully',
+        'data' : []
+    }
+
 if __name__ == '__main__':
     app.run()
